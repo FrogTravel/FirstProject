@@ -19,11 +19,11 @@ public class MainActivity extends AppCompatActivity{
     }
 
     public void onPlus(View view){
-        textView.setText("Number of Nevertheless: " + String.valueOf(numberOfNevertheless++));
+        textView.setText("Number of Nevertheless: " + String.valueOf(++numberOfNevertheless));
     }
 
     public void onMinus(View view){
-        textView.setText("Number of Nevertheless: " + String.valueOf(numberOfNevertheless--));
+        textView.setText("Number of Nevertheless: " + String.valueOf(--numberOfNevertheless));
     }
 
 
